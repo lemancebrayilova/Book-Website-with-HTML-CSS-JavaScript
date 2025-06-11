@@ -42,6 +42,7 @@ const shadowHeader = () =>{
     this.scrollY >= 50 ? header.classList.add('shadow-header')
                        : header.classList.remove('shadow-header')
 }
+window.addEventListener('scroll', shadowHeader)
 
 /*=============== HOME SWIPER ===============*/
 let swiperHome = new Swiper('.home__swiper', {
