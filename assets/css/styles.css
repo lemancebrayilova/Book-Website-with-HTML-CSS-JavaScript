@@ -399,7 +399,10 @@ img {
 }
 
 /* Swiper class */
-
+.swiper-slide-active,
+.swiper-slide-dublicate-active {
+  scale: 1;
+}
 
 /*=============== BUTTON ===============*/
 .button {
